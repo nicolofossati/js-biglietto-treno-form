@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS link -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- FONT links -->
+
+    <title>Train Ticket</title>
+</head>
+<body>
+    <form>
+        <label for="name_input">Nome Cognome</label>
+        <input type="text" id="name_input">
+
+        <label for="km_input">Km da percorrere</label>
+        <input type="text" id="km_input">
+
+        
+        <label for="age_select">Fascia d'età</label>
+        <select name="" id="age_select">
+            <option value="min">Minorenne</option>
+            <option value="mag">Maggiorenne</option>
+            <option value="o65">65+</option>
+        </select>
+
+        <button id="gen_bttn">Genera</button>
+        <button id="ann_bttn">Annulla</button>
+    </form>
+
+    <div id="riepilogo">
+        <span id="id_name"></span>
+        <span id="id_km"></span>
+        <span id="id_age"></span>
+    </div>
+
+
+    <script src="js/main.js" type="text/javascript"></script>
+</body>
+</html>
