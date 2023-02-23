@@ -13,14 +13,21 @@
 </head>
 <body>
     <form>
+        <label for="name_input">Nome e Cognome</label>
+        <input type="text" id="name_input">
+
         <label for="km_input">Km da percorrere</label>
         <input type="text" id="km_input">
 
-        
         <label for="age_select">Fascia d'età</label>
-        <input type="text" id="age_select">
+        <select id="age_select">
+            <option>Minorenne</option>
+            <option>Maggiorenne</option>
+            <option>65+</option>
+        </select>
 
-        <button id="gen_bttn">Genera</button>
+        <input type="button" value="Genera" id="gen_bttn">
+        <input type="button" value="Annulla" id="ann_bttn">
     </form>
 
     <div id="riepilogo">
