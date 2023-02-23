@@ -1,4 +1,4 @@
-//  `
+//  `€ 
 let dom_name = document.getElementById("name_input");
 let dom_km = document.getElementById("km_input");
 let dom_age = document.getElementById("age_select");
@@ -41,7 +41,7 @@ send_bttn.addEventListener('click', function(){
 
     document.getElementById("name_r").innerHTML = name_surname;
     document.getElementById("offert_r").innerHTML = offert;
-    document.getElementById("price_r").innerHTML = price_value;
+    document.getElementById("price_r").innerHTML = `${price_value}€`;
 
     const dom_carriage = document.getElementById("carriage");
     const dom_cp_code = document.getElementById("cp_code");
