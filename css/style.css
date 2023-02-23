@@ -3,3 +3,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
+.d-none{
+    display: none;
+}
+
+#riepilogo{
+    background-color: aquamarine;
+    height: 200px;
+    width: 100%;
+}
